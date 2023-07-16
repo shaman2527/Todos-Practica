@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+
+}
+
+nav .logo {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 50px;
+}
+
+header .menu {
+  max-width: 750px;
+  margin-top: 20px;
+}
+
+.menu img {
+  margin-left: 20px;
+}
+
+.menu img {
+
+  display: flex;
+  margin-right: 50px;
+}
+
+.menu input {
+  border-radius: 15px;
+}
+
+nav .card-shopping {
+  position: relative;
+  right: 40px;
+
+}

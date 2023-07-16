@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(14-seafront-meyer-road-12.jpg) no-repeat center center/cover;
+}
+
+.contenedor-principal {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+/* cronometro */
+#cronometro {
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  user-select: none;
+  font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+
+.boton {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 20px;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {}

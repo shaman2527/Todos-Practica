@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+  </head>
+  <body>
+    <h1>Manipulacion del Dom</h1>
+
+    <input id="calcu1" placeholder="Escribeme aqui" />
+    <input id="calcu2" placeholder="Escribeme aqui" />
+    <button id="buttonId" onclick="onclik()">Calcular</button>
+
+    <p id="result"></p>
+  </body>
+
+  <!-- javaScript -->
+  <script>
+    const h1 = document.querySelector("h1");
+    const input1 = document.querySelector("#calcu1");
+    const input2 = document.querySelector("#calcu2");
+    const btn = document.querySelector("#buttonId");
+    const pResult = document.querySelector("#result");
+
+    function onclik() {
+      const suma = Number(input1.value) + Number(input2.value);
+      pResult.innerText = "resultado:" + suma;
+    }
+  </script>
+</html>
